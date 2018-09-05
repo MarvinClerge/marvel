@@ -2,7 +2,7 @@
 
 .navbar {
   color: white;
-  background: #35323b;
+  background: #22262a;
 }
 
 .main-nav-container {
@@ -52,7 +52,7 @@
 
 .sub-nav-item-active {
   color: #c2bfbf;
-  border-bottom: 1px solid red;
+  border-bottom: 3px solid red;
 }
 
 .sub-nav > ul {

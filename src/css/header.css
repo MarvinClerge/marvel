@@ -1,0 +1,36 @@
+.header-container {
+  background-image: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/avnbpquest_com_mas_dsk_01.jpg);
+  height: 340px;
+  background-size: 100%;
+  clip-path: polygon(100% 0, 100% 94%, 33% 100%, 0% 100%, 0 50%, 0% 0%);
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.header {
+  color: white;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.header-content {
+  width: 540px
+}
+
+/* 540 */
+
+.header-category {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.header-title {
+  font-size: 60px;
+  padding-bottom: 20px;
+
+}
+.header-text {
+  font-size: 18px;
+  margin-bottom: 30px;
+
+}
