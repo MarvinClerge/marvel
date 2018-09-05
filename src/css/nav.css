@@ -31,11 +31,33 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  font-size: 13px;
   padding: 0 25px;
 }
 
 .nav-item-active {
   background: #000000;
+}
+
+/* Items in the sub section (videos, explore the universe) */
+
+.sub-nav-item {
+  height: 40px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 25px;
+}
+
+.sub-nav-item-active {
+  color: #c2bfbf;
+  border-bottom: 1px solid red;
+}
+
+.sub-nav > ul {
+  display: flex;
+  justify-content: center;
 }
 
 /* The signin box */
@@ -78,4 +100,15 @@
 
 .create-account:hover {
   border: 1px solid #d0d0d0;
+}
+
+/* The box that displays when hovering sub-nav item  */
+
+.sub-nav-category {
+  color: #202020;
+  background: #fff;
+  height: 366px;
+  width: 100%;
+  position: absolute;
+  z-index: 80;
 }
