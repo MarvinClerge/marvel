@@ -15,17 +15,17 @@ class NavMain extends Component {
   renderSignIn = () => {
     if (this.state.active) {
       return(
-        <div className='nav-main-sub'>
+        <div className='nav-main-signin'>
           <img
             height='52px'
             src='https://terrigen-cdn-dev.marvel.com/content/prod/2x/marvel_insider-topnav-logo-large2x_2.png'
           />
 
-          <button className='nav-sub-button signin'>
+          <button className='nav-signin-button signin'>
             SIGN IN
           </button>
 
-          <button className='nav-sub-button create-account'>
+          <button className='nav-signin-button create-account'>
             CREATE AN ACCOUNT
           </button>
         </div>
@@ -34,7 +34,6 @@ class NavMain extends Component {
   }
 
   render(){
-    console.log(this.state.active)
 
     return(
       <div className='nav-main-container'>

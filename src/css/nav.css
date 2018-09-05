@@ -1,0 +1,81 @@
+/* The entire navbar both main and sub */
+
+.navbar {
+  color: white;
+  background: #35323b;
+}
+
+.nav-main-container {
+  height: 52px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* The main navbar (upper section) */
+
+.nav-main {
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+}
+
+/* Items in the main section (marvel logo, search button) */
+
+.nav-item {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 25px;
+}
+
+.nav-item-active {
+  background: #000000;
+}
+
+/* The signin box */
+
+.nav-main-signin {
+  width: 400px;
+  height: 267px;
+  background: #000000;
+  border: 1px solid #292929;
+  padding: 50px 60px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 0;
+  top: 52px;
+}
+
+.nav-signin-button {
+  width: 240px;
+  height: 52px;
+  border: none;
+  margin: 10px 0;
+  cursor: pointer;
+  clip-path: polygon(0% 30%, 5% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%)
+}
+
+/* Buttons in the signin box */
+
+.signin:hover {
+  background: #d0d0d0;
+}
+
+.create-account {
+  background: none;
+  color: white;
+  border: 1px solid white;
+}
+
+.create-account:hover {
+  border: 1px solid #d0d0d0;
+}
