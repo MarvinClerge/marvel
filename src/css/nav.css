@@ -5,7 +5,7 @@
   background: #35323b;
 }
 
-.nav-main-container {
+.main-nav-container {
   height: 52px;
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +14,7 @@
 
 /* The main navbar (upper section) */
 
-.nav-main {
+.main-nav {
   width: 100%;
   max-width: 1200px;
   box-sizing: border-box;
@@ -40,7 +40,7 @@
 
 /* The signin box */
 
-.nav-main-signin {
+.main-nav-signin {
   width: 400px;
   height: 267px;
   background: #000000;

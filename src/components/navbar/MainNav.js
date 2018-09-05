@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class NavMain extends Component {
+class MainNav extends Component {
 
   state = {
     active: true
@@ -15,7 +15,7 @@ class NavMain extends Component {
   renderSignIn = () => {
     if (this.state.active) {
       return(
-        <div className='nav-main-signin'>
+        <div className='main-nav-signin'>
           <img
             height='52px'
             src='https://terrigen-cdn-dev.marvel.com/content/prod/2x/marvel_insider-topnav-logo-large2x_2.png'
@@ -36,8 +36,8 @@ class NavMain extends Component {
   render(){
 
     return(
-      <div className='nav-main-container'>
-        <div className='nav-main'>
+      <div className='main-nav-container'>
+        <div className='main-nav'>
           <div className={`nav-item ${this.state.active ? 'nav-item-active' : null}`} onClick={this.onClick}>
             SIGN IN
           </div>
@@ -64,4 +64,4 @@ class NavMain extends Component {
 
 }
 
-export default NavMain;
+export default MainNav;

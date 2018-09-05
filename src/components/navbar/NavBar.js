@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import NavMain from './NavMain'
+import MainNav from './MainNav'
+import SubNav from './SubNav'
 
 import './../../css/nav.css'
 
@@ -8,7 +9,8 @@ class NavBar extends Component {
   render(){
     return(
       <div className='navbar'>
-        <NavMain />
+        <MainNav />
+        <SubNav />
       </div>
     )
   }
