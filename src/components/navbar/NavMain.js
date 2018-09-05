@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class NavMain extends Component {
 
   state = {
-    active: false
+    active: true
   }
 
   onClick = () => {

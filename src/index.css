@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background: #1c1a1f;
+  background: #35323b;
   color: white;
 }
 
@@ -56,10 +56,25 @@
 
 .nav-sub-button {
   width: 240px;
-  height: 66px;
-  border: 0;
+  height: 52px;
+  border: none;
   margin: 10px 0;
+  cursor: pointer;
   clip-path: polygon(0% 30%, 5% 0%, 100% 0, 100% 70%, 95% 100%, 0 100%)
+}
+
+.signin:hover {
+  background: #d0d0d0;
+}
+
+.create-account {
+  background: none;
+  color: white;
+  border: 1px solid white;
+}
+
+.create-account:hover {
+  border: 1px solid #d0d0d0;
 }
 
 @media all and (min-width: 1200px) {
