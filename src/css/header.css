@@ -1,4 +1,78 @@
-.header-container {
+.header-content-container {
+  height: 400px;
+  background-size: 100%;
+  clip-path: polygon(100% 0, 100% 94%, 33% 100%, 0% 100%, 0 50%, 0% 0%);
+  display: flex;
+  justify-content: center;
+  padding: 0 25px 50px 25px;
+}
+
+.header-content {
+  color: white;
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+}
+
+.header-text {
+  width: 540px;
+  height: 400px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-category {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.header-category-image {
+  font-size: 18px;
+  max-height: 153px;
+}
+
+.header-title {
+  font-size: 50px;
+  padding-bottom: 20px;
+  line-height: 50px;
+}
+
+.header-text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/*  */
+
+.header-controls-container {
+  height: 89px;
+  display: flex;
+  transform: translateY(-30px);
+}
+
+.header-controls {
+  background: white;
+  max-width: 1200px;
+  display: flex;
+  cursor: pointer;
+}
+
+.header-controls-item {
+  padding: 20px 15px;
+  width: 185px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+
+}
+
+.header-item-active {
+  border-top: 5px solid red;
+}
+
+/* .header-container {
   background-image: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/avnbpquest_com_mas_dsk_01.jpg);
   background-size: 100%;
   height: 400px;
@@ -42,4 +116,4 @@
   max-width: 1200px;
   height: 89px;
   color: black;
-}
+} */
