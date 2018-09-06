@@ -1,0 +1,48 @@
+.large-section-container {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.large-section {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.large-section-title {
+  font-size: 30px;
+}
+
+.large-section-main {
+  display: flex;
+}
+
+/* main article of the large section */
+
+.large-section-main-image {
+  height: 337px;
+  padding: 30px 0;
+}
+.large-section-main-image > img {
+  height: 100%;
+}
+
+.large-section-main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 30px 0 30px;
+}
+.large-section-main-content > p {
+  padding: 5px 0;
+}
+
+.large-section-content-text {
+  font-size: 14px;
+}
+
+.large-section-content-title {
+  font-size: 26px;
+}
+
+/* other articles featured in large section */
