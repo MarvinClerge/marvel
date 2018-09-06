@@ -4,17 +4,23 @@
   clip-path: polygon(100% 0, 100% 94%, 33% 100%, 0% 100%, 0 50%, 0% 0%);
   display: flex;
   justify-content: center;
-  padding: 50px 25px;
+  padding: 0 25px 50px 25px;
 }
 
 .header-content {
   color: white;
   width: 100%;
   max-width: 1200px;
+  height: 400px;
 }
 
 .header-text {
   width: 540px;
+  height: 400px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .header-category {
@@ -22,8 +28,13 @@
   margin-bottom: 40px;
 }
 
+.header-category-image {
+  font-size: 18px;
+  max-height: 153px;
+}
+
 .header-title {
-  font-size: 60px;
+  font-size: 50px;
   padding-bottom: 20px;
   line-height: 50px;
 }
@@ -52,6 +63,7 @@
   width: 185px;
   display: flex;
   align-items: center;
+  font-size: 14px;
 
 }
 
