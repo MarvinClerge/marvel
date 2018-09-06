@@ -5,7 +5,7 @@ const LargeSection = (props) => {
   return(
     <div className='large-section-container'>
       <div className='large-section'>
-
+        
       </div>
     </div>
   )

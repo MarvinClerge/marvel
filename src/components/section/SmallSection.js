@@ -5,7 +5,7 @@ const SmallSection = (props) => {
   return(
     <div className='small-section-container'>
       <div className='small-section'>
-
+        
       </div>
     </div>
   )
