@@ -49,13 +49,14 @@
 .header-controls-container {
   height: 89px;
   display: flex;
-  transform: translateY(-20px);
+  transform: translateY(-30px);
 }
 
 .header-controls {
   background: white;
   max-width: 1200px;
   display: flex;
+  cursor: pointer;
 }
 
 .header-controls-item {
