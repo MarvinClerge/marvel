@@ -35,7 +35,29 @@
 
 /*  */
 
+.header-controls-container {
+  height: 89px;
+  display: flex;
+  transform: translateY(-20px);
+}
 
+.header-controls {
+  background: white;
+  max-width: 1200px;
+  display: flex;
+}
+
+.header-controls-item {
+  padding: 20px 15px;
+  width: 185px;
+  display: flex;
+  align-items: center;
+
+}
+
+.header-item-active {
+  border-top: 5px solid red;
+}
 
 /* .header-container {
   background-image: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/avnbpquest_com_mas_dsk_01.jpg);

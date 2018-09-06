@@ -41,7 +41,7 @@ class Header extends Component {
     return(
       <div className='header'>
         <HeaderContent content={content[this.state.activeContent]} />
-        <HeaderControls content={content} changeActive={this.changeActive} />
+        <HeaderControls content={content} activeContent={this.state.activeContent} changeActive={this.changeActive} />
       </div>
     )
   }
