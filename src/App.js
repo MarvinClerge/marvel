@@ -4,10 +4,12 @@ import NavBar from './components/navbar/NavBar'
 import Header from './components/header/Header'
 import LargeSection from './components/section/LargeSection'
 import SmallSection from './components/section/SmallSection'
+import OmegaSection from './components/section/OmegaSection'
 
 import {
   largeSectionContent,
-  smallSectionContent
+  smallSectionContent,
+  omegaSectionContent
 } from './components/section/sectionData'
 
 class App extends Component {
@@ -16,8 +18,10 @@ class App extends Component {
       <div className="app">
         <NavBar />
         <Header />
-        <LargeSection {...largeSectionContent} />
+
         <SmallSection {...smallSectionContent} />
+        <OmegaSection {...omegaSectionContent} />
+        <LargeSection {...largeSectionContent} />
       </div>
     );
   }
