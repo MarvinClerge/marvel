@@ -15,7 +15,7 @@ const LargeSection = (props) => {
             {item.category}
           </p>
 
-          <p className='large-section-title'>
+          <p className='large-section-s-title'>
             {item.title}
           </p>
 
