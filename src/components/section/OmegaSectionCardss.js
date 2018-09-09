@@ -1,7 +1,6 @@
 import React from 'react'
 
 const OmegaSectionCards = (props) => {
-  console.log(props);
 
   const mapCards = () => {
     return props.cards.map((item, index) => {

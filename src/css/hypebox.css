@@ -1,0 +1,39 @@
+.hypebox {
+  width: 400px;
+  padding: 0 50px;
+}
+.hypebox-header {
+  text-align: center;
+  padding: 0 15px 20px 15px;
+}
+.hypebox-title {
+  font-size: 30px;
+}
+.hypebox-text {
+  font-size: 14px;
+}
+
+.hypebox-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 24px 0;
+  border-top: 1px solid lightgrey;
+}
+
+.hypebox-card-image > img {
+  width: 100%;
+}
+
+.hypebox-card-content {
+  padding-left: 20px;
+}
+
+.hypebox-card-content > p {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.hypebox-card-title {
+  font-size: 14px;
+  font-weight: bold;
+}

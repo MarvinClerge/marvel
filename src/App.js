@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 
 import NavBar from './components/navbar/NavBar'
 import Header from './components/header/Header'
+
 import LargeSection from './components/section/LargeSection'
 import SmallSection from './components/section/SmallSection'
 import OmegaSection from './components/section/OmegaSection'
+
+import LatestContainer from './components/latest/LatestContainer'
 
 import {
   largeSectionContent,
@@ -22,6 +25,8 @@ class App extends Component {
         <SmallSection {...smallSectionContent} />
         <OmegaSection {...omegaSectionContent} />
         <LargeSection {...largeSectionContent} />
+
+        <LatestContainer />
       </div>
     );
   }
