@@ -8,6 +8,7 @@ import SmallSection from './components/section/SmallSection'
 import OmegaSection from './components/section/OmegaSection'
 
 import LatestContainer from './components/latest/LatestContainer'
+import Featured from './components/featured/Featured'
 
 import {
   largeSectionContent,
@@ -27,6 +28,8 @@ class App extends Component {
         <LargeSection {...largeSectionContent} />
 
         <LatestContainer />
+
+        <Featured />
       </div>
     );
   }

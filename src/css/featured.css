@@ -1,0 +1,42 @@
+.featured-container {
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+}
+
+.featured {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.featured-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.featured-items {
+  padding: 0 20px;
+  overflow-y: scroll;
+  max-height: 506px;
+}
+
+.featured-item {
+  height: 131px;
+  width: 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+.featured-text {
+  margin-top: 20px;
+}
+
+.featured-text h5 {
+  color: red;
+}
