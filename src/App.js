@@ -13,6 +13,8 @@ import Featured from './components/featured/Featured'
 import UnlimitedSmall from './components/unlimited/UnlimitedSmall'
 import NewSection from './components/new/NewSection'
 
+import Footer from './components/footer/Footer'
+
 
 import {
   largeSectionContent,
@@ -32,12 +34,10 @@ class App extends Component {
         <LargeSection {...largeSectionContent} />
 
         <LatestContainer />
-
         <Featured />
-
         <UnlimitedSmall />
-
         <NewSection />
+        <Footer />
       </div>
     );
   }
