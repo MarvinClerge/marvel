@@ -11,6 +11,7 @@ import LatestContainer from './components/latest/LatestContainer'
 import Featured from './components/featured/Featured'
 
 import UnlimitedSmall from './components/unlimited/UnlimitedSmall'
+import NewSection from './components/new/NewSection'
 
 
 import {
@@ -35,6 +36,8 @@ class App extends Component {
         <Featured />
 
         <UnlimitedSmall />
+
+        <NewSection />
       </div>
     );
   }
