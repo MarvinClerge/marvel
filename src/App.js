@@ -2,9 +2,19 @@ import React, { Component } from 'react';
 
 import NavBar from './components/navbar/NavBar'
 import Header from './components/header/Header'
+
 import LargeSection from './components/section/LargeSection'
 import SmallSection from './components/section/SmallSection'
 import OmegaSection from './components/section/OmegaSection'
+
+import LatestContainer from './components/latest/LatestContainer'
+import Featured from './components/featured/Featured'
+
+import UnlimitedSmall from './components/unlimited/UnlimitedSmall'
+import NewSection from './components/new/NewSection'
+
+import Footer from './components/footer/Footer'
+
 
 import {
   largeSectionContent,
@@ -22,6 +32,12 @@ class App extends Component {
         <SmallSection {...smallSectionContent} />
         <OmegaSection {...omegaSectionContent} />
         <LargeSection {...largeSectionContent} />
+
+        <LatestContainer />
+        <Featured />
+        <UnlimitedSmall />
+        <NewSection />
+        <Footer />
       </div>
     );
   }
